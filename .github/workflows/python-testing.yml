@@ -3,6 +3,7 @@ name: Python
 
 # HINT: Sync this paths with the egrep in step check_files
 on:
+  workflow_dispatch:
   push:
     branches: [ "master", "main" ]
     paths:
